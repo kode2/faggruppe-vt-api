@@ -1,0 +1,124 @@
+
+body {
+    background-color: #ddd;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    font-size: 1.5rem;
+    padding: 1rem 0;    
+}
+
+.aboutSection {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aboutSection img {
+    width: 100%;
+    border-radius: 1rem;
+    filter: grayscale(100%);
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.articles article {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.articles img, .articles video {
+    height: 200px;
+    border: .5rem #ccc solid;
+    filter: grayscale(100%);
+}
+
+p {
+    max-width: 500px;
+}
+
+/* @view-transition {
+    navigation: auto;
+}  */
+
+/* .headingKafka, .bigHeadingKafka {
+    view-transition-name: kafka;
+}
+.imageKafka, .bigImageKafka {
+    view-transition-name: img-kafka;
+}
+
+.headingTolstoj, .bigHeadingTolstoj {
+    view-transition-name: tolstoj;
+}
+.imageTolstoj, .bigImageTolstoj {
+    view-transition-name: img-tolstoj;
+}
+
+.headingSkram, .bigHeadingSkram {
+    view-transition-name: skram;
+}
+.imageSkram, .bigImageSkram {
+    view-transition-name: img-skram;
+}
+
+.headingToole, .bigHeadingToole {
+    view-transition-name: toole;
+}
+.imageToole, .bigImageToole {
+    view-transition-name: img-toole;
+}
+
+.headingShelley, .bigHeadingShelley {
+    view-transition-name: shelley;
+}
+.imageShelley, .bigImageShelley {
+    view-transition-name: img-shelley;
+}
+
+.headingRab, .bigHeadingRab {
+    view-transition-name: rabben;
+}
+.imageRab, .bigImageRab {
+    view-transition-name: img-rabben;
+}
+
+.headingWoolf, .bigHeadingWoolf {
+    view-transition-name: woolf;
+}
+.imageWoolf, .bigImageWoolf {
+    view-transition-name: img-woolf;
+}
+
+.headingBronte, .bigHeadingBronte {
+    view-transition-name: bronte;
+}
+.imageBronte, .bigImageBronte {
+    view-transition-name: img-bronte;
+}
+
+.headingFlowere, .bigHeadingFlower {
+    view-transition-name: flower;
+}
+.videoFlower, .bigVideoFlower {
+    view-transition-name: vid-flower;
+} */
+
+/* ::view-transition-group(root) {
+    animation-duration: 2s;
+}
+::view-transition-group(test) {
+    animation-duration: 2s;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA - View transitions API</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            text-align: center;
+        }    
+        pre {
+            background-color: black;
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+        }    
+    </style>
+</head>
+<body>
+    <div>
+        <h1>SPA</h1>
+        <h2>View transitions API</h2>
+        <pre>
+        <code class="language-js">
+function changeTheDom() {
+    if(!document.startViewTransition) {
+        // Gjør det du skal for å endre DOM
+        return; // Pass på å avslutte funksjonen
+    }
+    document.startViewTransition(() => {
+        // Gjør det du skal for å endre DOM
+    });
+}
+</code>
+</pre>
+    <a href="spa-example.html">Eksempel</a>
+    </div>
+</body>
+</html>
